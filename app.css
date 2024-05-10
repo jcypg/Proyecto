@@ -8,38 +8,47 @@
     width: 30%;
     text-align: center;
     background-color: blue;
+    min-height: 100vh;
 }
 #columna1 .container {
     display: flex;
     column-gap: 30px;
     text-align: center
-    ;
+    
 }
+
 #columna1 .columna1 {
     background-color: blue;
+    min-height: 100vh;
 
 }
 
 #columna1 .columna2 {
     background-color: blue;
+    min-height: 100vh;
+
 }
 
 #columna2 .container {
     display: flex;
     column-gap: 30px;
     text-align: center;
+    min-height: 100vh;
 }
 
 #columna2 .columna4 {
     background-color: blue;
+    min-height: 100vh;
 }
 
 #columna2 .columna5 {
     background-color: blue;
+    min-height: 100vh;
 }
 
 #columna2 .columna6 {
     background-color: blue;
+    min-height: 100vh;
 }
 
 .titulo2 {
@@ -50,6 +59,7 @@
     display: flex;
     column-gap: 30px;
     text-align: center;
+    min-height: 100vh;
 }
 
 .end {
@@ -58,9 +68,6 @@
     column-gap: 400px;
 }   
 
-.footer {
-   
-}
 
 button {
     font-size: 1em;
@@ -77,10 +84,35 @@ button {
 button:hover{
     background-color: blue;
 }
-/*reglas generales*/
 
-/*Media Query*/
+h3 {
+    font-family: 'playfair'; /* Specify the font family */
+    font-size: 25px; /* Set the size of the font */
+    font-weight: bold; /* Make the title bold */
+    color: #000000; /* Set the color of the title */
+  }
+  .navbar {
+    display: flex; /* Set the container as a flex container */
+    justify-content: space-between; /* Distribute items horizontally */
+    align-items: center; /* Vertically center items */
+    background-color: #f0f0f0; /* Set a background color for the navbar */
+    padding: 10px; /* Add some padding for spacing */
+}
 
-/** Reescribir colores */
 
-/** Productos */
+
+.nav-links {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Make the list items flex items */
+}
+
+.nav-links li {
+    margin-right: 180px; /* Add spacing between navigation links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    justify-content: center;
+    text-align: center;
+}
