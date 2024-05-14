@@ -4,6 +4,11 @@
     justify-content: center;
 }
 
+#Top .top {
+    display: flex;
+    justify-content: center;
+}
+
 #Producto .texto {
     width: 30%;
     text-align: center;
