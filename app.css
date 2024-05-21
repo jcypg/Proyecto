@@ -64,16 +64,16 @@
     display: flex;
     column-gap: 30px;
     text-align: center;
-    min-height: 100vh;
 }
 
 .end {
-     display: flex;
-    text-align: center;
-    column-gap: 400px;
-}   
-
-
+   display: flex;
+   text-align: center;
+   column-gap: 400px;
+   margin: 0 auto; 
+   justify-content: space-between;
+   padding-bottom: 4rem;
+}
 button {
     font-size: 1em;
     font-weight: bold;
@@ -104,8 +104,6 @@ h3 {
     padding: 10px; /* Add some padding for spacing */
 }
 
-
-
 .nav-links {
     list-style: none; /* Remove default list styles */
     display: flex; /* Make the list items flex items */
@@ -120,4 +118,15 @@ h3 {
     color: #333;
     justify-content: center;
     text-align: center;
+}
+
+/* Center all columns */
+table td {
+    text-align: center;
+}
+/* Override rule above to left-align specific columns */
+table td:nth-child(1),
+table td:nth-child(2),
+table td:nth-child(4) {
+    text-align: left;
 }
