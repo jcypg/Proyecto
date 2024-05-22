@@ -4,18 +4,42 @@
     justify-content: center;
 }
 
+@media (max-width: 414px) {
+    /* Styles for small screens */
+}
+@media (min-width: 601px) {
+    /* Styles for larger screens */
+}
+
+
 #Top .top {
     display: flex;
     justify-content: center;
+}
 
+.topimage {
+    width: 1350px;
+    height: 410px;
+    overflow: hidden;
   }
-  .centered-and-cropped { object-fit: cover }
+
+  .image-container {
+    width: 100%;
+    height: 400px; /* adjust as needed to crop the image */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
 
 #Producto .texto {
     width: 30%;
     text-align: center;
     background-color: blue;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 #columna1 .container {
     display: flex;
@@ -68,6 +92,32 @@
     text-align: center;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    max-width: 1400px;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    line-height: 1.5;
+}
+footer a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.ft-title {
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+
 .end {
    display: flex;
    text-align: center;
@@ -75,6 +125,7 @@
    margin: 0 auto; 
    justify-content: space-between;
    padding-bottom: 4rem;
+   
 }
 button {
     font-size: 1em;
@@ -143,3 +194,4 @@ table td:nth-child(4) {
 h1 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;}
+
