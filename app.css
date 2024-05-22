@@ -7,7 +7,9 @@
 #Top .top {
     display: flex;
     justify-content: center;
-}
+
+  }
+  .centered-and-cropped { object-fit: cover }
 
 #Producto .texto {
     width: 30%;
@@ -130,3 +132,14 @@ table td:nth-child(2),
 table td:nth-child(4) {
     text-align: left;
 }
+
+.top li {
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
